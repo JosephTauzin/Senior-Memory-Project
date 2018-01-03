@@ -1,0 +1,5 @@
+[2017-08-31T12:55:48+00:00] starting `/usr/local/heroku/bin/heroku update --autoupdate` from --help
+[2018-01-03T18:05:38+00:00] starting `/usr/local/heroku/bin/heroku update --autoupdate` from login
+[2018-01-03T18:05:38+00:00] heroku-cli: Updating CLI...
+[2018-01-03T18:05:39+00:00] heroku-cli: Updating CLI from 6.14.4-d011db2 to 6.15.3-a177970... done
+heroku-cli: Updating CLI... already on latest version: 6.15.3-a177970

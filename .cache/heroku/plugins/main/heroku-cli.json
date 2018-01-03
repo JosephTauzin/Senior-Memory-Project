@@ -1,0 +1,25 @@
+{
+  "invalidate": "6.15.3-a177970/6.15.3",
+  "manifest": {
+    "commands": [
+      {
+        "id": "auth:whoami",
+        "_version": "12.0.3",
+        "description": "display the current logged in user",
+        "plugin": {
+          "name": "heroku-cli",
+          "version": "6.15.3"
+        },
+        "aliases": [
+          "whoami"
+        ],
+        "help": "Usage: heroku auth:whoami\n\ndisplay the current logged in user\n\nAliases:\n  $ heroku whoami\n",
+        "helpLine": [
+          "auth:whoami",
+          "display the current logged in user"
+        ]
+      }
+    ],
+    "topics": []
+  }
+}
