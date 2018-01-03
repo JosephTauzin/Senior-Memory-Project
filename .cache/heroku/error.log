@@ -215,3 +215,31 @@ See more help with --help
  ▸    Missing required flag:
  ▸    -a, --app APP  app to run command against
  ▸    See more help with --help
+{ Error: Missing 1 required arg:
+newname
+See more help with --help
+    at validateArgs (/home/ubuntu/.local/share/heroku/client/node_modules/cli-flags/lib/validate.js:14:19)
+    at Object.validate (/home/ubuntu/.local/share/heroku/client/node_modules/cli-flags/lib/validate.js:24:5)
+    at Object.parse (/home/ubuntu/.local/share/heroku/client/node_modules/cli-flags/lib/index.js:19:26)
+    at V5.<anonymous> (/home/ubuntu/.local/share/heroku/client/node_modules/@cli-engine/command/lib/command.js:34:61)
+    at Generator.next (<anonymous>)
+    at /home/ubuntu/.local/share/heroku/client/node_modules/tslib/tslib.js:105:75
+    at new Promise (<anonymous>)
+    at Object.__awaiter (/home/ubuntu/.local/share/heroku/client/node_modules/tslib/tslib.js:101:16)
+    at V5.init (/home/ubuntu/.local/share/heroku/client/node_modules/@cli-engine/command/lib/command.js:32:24)
+    at Function.<anonymous> (/home/ubuntu/.local/share/heroku/client/node_modules/@cli-engine/command/lib/command.js:102:23)
+  parse: 
+   { input: { args: [Array], argv: [], flags: [Object], strict: true },
+     output: { args: [Object], argv: [], flags: [Object], raw: [] } },
+  args: 
+   [ { parse: [Function: parse], name: 'newname', required: true } ] }
+ ▸    Missing 1 required arg:
+ ▸    newname
+ ▸    See more help with --help
+2018/01/03 19:56:17 Error: Expected response to be successful, got 422
+    at Request.handleFailure [as _handleFailure] (/home/ubuntu/.local/share/heroku/client/node_modules/heroku-client/lib/request.js:254:11)
+    at Request.<anonymous> (/home/ubuntu/.local/share/heroku/client/node_modules/heroku-cli-util/lib/command.js:56:12)
+    at concat.then (/home/ubuntu/.local/share/heroku/client/node_modules/heroku-client/lib/request.js:148:16)
+    at <anonymous>
+    at process._tickCallback (internal/process/next_tick.js:160:7)
+2018/01/03 19:56:17 {"id":"invalid_params","message":"Name must start with a letter and can only contain lowercase letters, numbers, and dashes."}
